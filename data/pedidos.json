@@ -3,60 +3,70 @@
     "tracking_number": "1001",
     "estado": "En camino",
     "fecha_entrega": "2026-04-15",
-    "detalle": "Tu pedido está en tránsito hacia tu ciudad."
+    "detalle": "Tu pedido está en tránsito hacia tu ciudad.",
+    "productos": ["P002", "P009"]
   },
   {
     "tracking_number": "1002",
     "estado": "Entregado",
     "fecha_entrega": "2026-04-10",
-    "detalle": "El pedido fue entregado correctamente."
+    "detalle": "El pedido fue entregado correctamente.",
+    "productos": ["P002", "P001", "P010"]
   },
   {
     "tracking_number": "1003",
     "estado": "Retrasado",
     "fecha_entrega": "2026-04-18",
-    "detalle": "Retraso por alta demanda logística."
+    "detalle": "Retraso por alta demanda logística.",
+    "productos": ["P012"]
   },
   {
     "tracking_number": "1004",
     "estado": "Procesando",
     "fecha_entrega": "2026-04-17",
-    "detalle": "Estamos preparando tu pedido."
+    "detalle": "Estamos preparando tu pedido.",
+    "productos": ["P003", "P014"]
   },
   {
     "tracking_number": "1005",
     "estado": "Cancelado",
     "fecha_entrega": "N/A",
-    "detalle": "El pedido fue cancelado por el cliente."
+    "detalle": "El pedido fue cancelado por el cliente.",
+    "productos": ["P005"]
   },
   {
     "tracking_number": "1006",
     "estado": "En camino",
     "fecha_entrega": "2026-04-16",
-    "detalle": "En ruta con la transportadora."
+    "detalle": "En ruta con la transportadora.",
+    "productos": ["P007", "P015"]
   },
   {
     "tracking_number": "1007",
     "estado": "Retrasado",
     "fecha_entrega": "2026-04-20",
-    "detalle": "Problemas logísticos."
+    "detalle": "Problemas logísticos.",
+    "productos": ["P010", "P011"]
   },
   {
     "tracking_number": "1008",
     "estado": "Entregado",
     "fecha_entrega": "2026-04-09",
-    "detalle": "Entrega confirmada."
+    "detalle": "Entrega confirmada.",
+    "productos": ["P012", "P006", "P003"]
   },
   {
     "tracking_number": "1009",
     "estado": "Procesando",
     "fecha_entrega": "2026-04-18",
-    "detalle": "Preparación en bodega."
+    "detalle": "Preparación en bodega.",
+    "productos": ["P013", "P014"]
   },
   {
     "tracking_number": "1010",
     "estado": "En camino",
     "fecha_entrega": "2026-04-15",
-    "detalle": "Transporte en curso."
+    "detalle": "Transporte en curso.",
+    "productos": ["P004", "P015"]
   }
 ]

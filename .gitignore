@@ -10,3 +10,7 @@ dist/
 build/
 .DS_Store
 chroma_db_ecomarket/
+
+# Logs y artefactos de runtime del agente
+logs/*.json
+gemini_key.txt.txt
