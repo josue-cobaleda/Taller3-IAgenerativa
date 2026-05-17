@@ -2,28 +2,28 @@
   {
     "tracking_number": "1001",
     "estado": "En camino",
-    "fecha_entrega": "2026-04-15",
+    "fecha_entrega": "2026-05-20",
     "detalle": "Tu pedido está en tránsito hacia tu ciudad.",
     "productos": ["P002", "P009"]
   },
   {
     "tracking_number": "1002",
     "estado": "Entregado",
-    "fecha_entrega": "2026-04-10",
+    "fecha_entrega": "2026-05-05",
     "detalle": "El pedido fue entregado correctamente.",
     "productos": ["P002", "P001", "P010"]
   },
   {
     "tracking_number": "1003",
     "estado": "Retrasado",
-    "fecha_entrega": "2026-04-18",
+    "fecha_entrega": "2026-05-22",
     "detalle": "Retraso por alta demanda logística.",
     "productos": ["P012"]
   },
   {
     "tracking_number": "1004",
     "estado": "Procesando",
-    "fecha_entrega": "2026-04-17",
+    "fecha_entrega": "2026-05-25",
     "detalle": "Estamos preparando tu pedido.",
     "productos": ["P003", "P014"]
   },
@@ -37,35 +37,35 @@
   {
     "tracking_number": "1006",
     "estado": "En camino",
-    "fecha_entrega": "2026-04-16",
+    "fecha_entrega": "2026-05-21",
     "detalle": "En ruta con la transportadora.",
     "productos": ["P007", "P015"]
   },
   {
     "tracking_number": "1007",
     "estado": "Retrasado",
-    "fecha_entrega": "2026-04-20",
+    "fecha_entrega": "2026-05-24",
     "detalle": "Problemas logísticos.",
     "productos": ["P010", "P011"]
   },
   {
     "tracking_number": "1008",
     "estado": "Entregado",
-    "fecha_entrega": "2026-04-09",
+    "fecha_entrega": "2026-05-08",
     "detalle": "Entrega confirmada.",
     "productos": ["P012", "P006", "P003"]
   },
   {
     "tracking_number": "1009",
     "estado": "Procesando",
-    "fecha_entrega": "2026-04-18",
+    "fecha_entrega": "2026-05-23",
     "detalle": "Preparación en bodega.",
     "productos": ["P013", "P014"]
   },
   {
     "tracking_number": "1010",
     "estado": "En camino",
-    "fecha_entrega": "2026-04-15",
+    "fecha_entrega": "2026-05-20",
     "detalle": "Transporte en curso.",
     "productos": ["P004", "P015"]
   }

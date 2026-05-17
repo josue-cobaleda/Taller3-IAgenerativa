@@ -1,9 +1,10 @@
 """
-Factoría de proveedores: LLM (Gemini default, Ollama plan B) y embeddings.
+Factoría de proveedores: LLM (Gemini, OpenAI u Ollama) y embeddings.
 
 Variables de entorno relevantes (ver .env.example):
-- LLM_PROVIDER: "gemini" (default) | "ollama"
+- LLM_PROVIDER: "gemini" (default) | "openai" | "ollama"
 - GOOGLE_API_KEY, GEMINI_MODEL
+- OPENAI_API_KEY, OPENAI_MODEL
 - OLLAMA_MODEL, OLLAMA_BASE_URL
 """
 import os
@@ -32,6 +33,20 @@ def get_llm():
             model=os.getenv("GEMINI_MODEL", "gemini-2.0-flash"),
             temperature=0.3,
             google_api_key=api_key,
+        )
+
+    if LLM_PROVIDER == "openai":
+        from langchain_openai import ChatOpenAI
+
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            raise RuntimeError(
+                "OPENAI_API_KEY no está definida. Agrégala en .env."
+            )
+        return ChatOpenAI(
+            model=os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
+            temperature=0.3,
+            api_key=api_key,
         )
 
     if LLM_PROVIDER == "ollama":
