@@ -81,58 +81,6 @@ CSS = """
     [data-testid="stChatMessageContent"] p { margin: 0 0 8px; line-height: 1.55; }
     [data-testid="stChatMessageContent"] p:last-child { margin-bottom: 0; }
 
-    /* Tool-call trace card */
-    .em-tool-call {
-        border: 1px solid var(--em-border);
-        background: var(--em-surface);
-        border-radius: 12px;
-        overflow: hidden;
-        margin: 8px 0;
-        box-shadow: 0 1px 2px rgba(20, 30, 24, 0.04);
-    }
-    .em-tool-head {
-        display: flex; align-items: center; gap: 10px;
-        padding: 10px 12px;
-        border-bottom: 1px solid var(--em-border);
-    }
-    .em-tool-badge {
-        width: 26px; height: 26px; border-radius: 7px;
-        display: grid; place-items: center; flex-shrink: 0;
-    }
-    .em-tool-badge.kb     { background: var(--em-blue-100);   color: var(--em-blue-700); }
-    .em-tool-badge.order  { background: var(--em-green-100);  color: var(--em-green-700); }
-    .em-tool-badge.check  { background: var(--em-amber-100);  color: var(--em-amber-700); }
-    .em-tool-badge.label  { background: var(--em-violet-100); color: var(--em-violet-700); }
-    .em-tool-fn {
-        font-family: 'JetBrains Mono', ui-monospace, monospace;
-        font-size: 12.5px; font-weight: 500; color: var(--em-ink);
-    }
-    .em-tool-status {
-        font-size: 10.5px; font-weight: 600;
-        text-transform: uppercase; letter-spacing: 0.06em;
-        padding: 2px 7px; border-radius: 4px; margin-left: 8px;
-    }
-    .em-tool-status.ok { background: var(--em-green-100); color: var(--em-green-900); }
-    .em-tool-status.err { background: var(--em-red-100); color: var(--em-red-700); }
-    .em-tool-status.run { background: var(--em-amber-100); color: var(--em-amber-700); }
-    .em-tool-sub { font-size: 11.5px; color: var(--em-ink-3); margin-top: 2px; }
-    .em-tool-section {
-        padding: 10px 12px;
-        border-bottom: 1px solid var(--em-border);
-        background: var(--em-green-50);
-    }
-    .em-tool-section:last-child { border-bottom: none; }
-    .em-tool-section-label {
-        font-size: 10px; font-weight: 600;
-        text-transform: uppercase; letter-spacing: 0.08em;
-        color: var(--em-ink-3); margin-bottom: 6px;
-    }
-    .em-tool-code {
-        font-family: 'JetBrains Mono', ui-monospace, monospace;
-        font-size: 12px; line-height: 1.55; color: var(--em-ink-2);
-        white-space: pre-wrap; word-break: break-word; margin: 0;
-    }
-
     /* Label card (return label) */
     .em-label-card {
         border: 1px solid var(--em-green-200);
